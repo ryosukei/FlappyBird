@@ -13,6 +13,8 @@
 		BB374271271FEEE800286BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB37426F271FEEE800286BEA /* Main.storyboard */; };
 		BB374273271FEEEB00286BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB374272271FEEEB00286BEA /* Assets.xcassets */; };
 		BB374276271FEEEB00286BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB374274271FEEEB00286BEA /* LaunchScreen.storyboard */; };
+		BB37427E271FF08800286BEA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB37427D271FF08800286BEA /* GameScene.swift */; };
+		BB3742862721496000286BEA /* koka_mu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB3742852721496000286BEA /* koka_mu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BB374272271FEEEB00286BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB374275271FEEEB00286BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB374277271FEEEB00286BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB37427D271FF08800286BEA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BB3742852721496000286BEA /* koka_mu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = koka_mu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				BB374269271FEEE800286BEA /* AppDelegate.swift */,
 				BB37426B271FEEE800286BEA /* SceneDelegate.swift */,
 				BB37426D271FEEE800286BEA /* ViewController.swift */,
+				BB37427D271FF08800286BEA /* GameScene.swift */,
+				BB3742852721496000286BEA /* koka_mu.mp3 */,
 				BB37426F271FEEE800286BEA /* Main.storyboard */,
 				BB374272271FEEEB00286BEA /* Assets.xcassets */,
 				BB374274271FEEEB00286BEA /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3742862721496000286BEA /* koka_mu.mp3 in Resources */,
 				BB374276271FEEEB00286BEA /* LaunchScreen.storyboard in Resources */,
 				BB374273271FEEEB00286BEA /* Assets.xcassets in Resources */,
 				BB374271271FEEE800286BEA /* Main.storyboard in Resources */,
@@ -139,6 +146,7 @@
 			files = (
 				BB37426E271FEEE800286BEA /* ViewController.swift in Sources */,
 				BB37426A271FEEE800286BEA /* AppDelegate.swift in Sources */,
+				BB37427E271FF08800286BEA /* GameScene.swift in Sources */,
 				BB37426C271FEEE800286BEA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ryosuke.aono.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ryosuke.aono.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
